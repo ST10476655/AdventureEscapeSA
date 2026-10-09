@@ -31,4 +31,17 @@
     <string name="individual_activities">Individual Activities</string>
     <string name="calculate_fees">Calculate Fees</string>
     <string name="ContactUs">Contact Us</string>
+    <string name="logo">Logo</string>
+    <string name="menu">Menu</string>
+    <string name="get_in_touch">Get In Touch</string>
+    <string name="phone">Phone</string>
+    <string name="contact_phone">+27 21 555 1234</string>
+    <string name="email">Email</string>
+    <string name="contact_email">bookings@adventureescapesa.co.za</string>
+    <string name="address">Address</string>
+    <string name="contact_address">123 Adventure Trail, Cape Town, Western Cape, South Africa</string>
+    <string name="social_media">Social Media</string>
+    <string name="contact_social_media">Facebook | Instagram | LinkedIn</string>
+    <string name="enter_message">Enter Message</string>
+    <string name="send_enquiry">Send Enquiry</string>
 </resources>

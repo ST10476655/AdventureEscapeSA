@@ -56,7 +56,7 @@
             android:layout_margin="10dp"
             android:autofillHints=""
             android:hint="@string/full_name"
-            android:inputType="TODO" />
+            android:inputType="textPersonName" />
 
         <EditText
             android:id="@+id/etPhone"
@@ -75,7 +75,7 @@
             android:layout_margin="10dp"
             android:autofillHints=""
             android:hint="@string/email_address"
-            android:inputType="TODO" />
+            android:inputType="textEmailAddress" />
 
         <!-- PACKAGES -->
 

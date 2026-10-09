@@ -28,17 +28,17 @@
                 android:layout_width="70dp"
                 android:layout_height="70dp"
                 android:src="@drawable/logo"
-                tools:ignore="ContentDescription" />
+                tools:ignore="ContentDescription,ImageContrastCheck" />
 
             <!-- APP NAME -->
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:layout_marginStart="10dp"
+                android:layout_weight="1"
                 android:text="Adventure Escape SA"
-                android:textColor="#FFFFFF"
+                android:textColor="#1B5E20"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 tools:ignore="HardcodedText" />
@@ -51,7 +51,8 @@
                 android:layout_height="40dp"
                 android:background="@android:color/transparent"
                 android:importantForAccessibility="no"
-                android:src="@android:drawable/ic_menu_sort_by_size" />
+                android:src="@android:drawable/ic_menu_sort_by_size"
+                tools:ignore="ImageContrastCheck,TouchTargetSizeCheck" />
 
         </LinearLayout>
 
@@ -80,7 +81,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Explore Amazing Destinations!"
-                android:textColor="#2E8B57"
+                android:textColor="#1B5E20"
                 android:textSize="22sp"
                 android:textStyle="bold"
                 tools:ignore="HardcodedText" />
@@ -90,9 +91,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="Adventure Escape SA offers professionally guided outdoor adventures for individuals, families, schools, tourists and corporate groups across South Africa."
-                android:textColor="#444444"
+                android:textColor="#263238"
                 android:textSize="14sp"
-                tools:ignore="HardcodedText" />
+                tools:ignore="HardcodedText,VisualLintLongText" />
 
         </LinearLayout>
 
@@ -101,55 +102,55 @@
         <Button
             android:id="@+id/btnAbout"
             android:layout_width="220dp"
-            android:layout_height="45dp"
+            android:layout_height="48dp"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
-            android:text="About Us"
-            android:textColor="#2E8B57"
             android:backgroundTint="#FF8C42"
+            android:text="About Us"
+            android:textColor="#4E342E"
             tools:ignore="HardcodedText" />
 
         <Button
             android:id="@+id/btnPackages"
             android:layout_width="220dp"
-            android:layout_height="45dp"
+            android:layout_height="48dp"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
-            android:text="Adventure Packages"
-            android:textColor="#2E8B57"
             android:backgroundTint="#FF8C42"
+            android:text="Adventure Packages"
+            android:textColor="#4E342E"
             tools:ignore="HardcodedText" />
 
         <Button
             android:id="@+id/btnActivities"
             android:layout_width="220dp"
-            android:layout_height="45dp"
+            android:layout_height="48dp"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
+            android:backgroundTint="#FF8C42"
             android:text="@string/individual_activities"
-            android:textColor="#2E8B57"
-            android:backgroundTint="#FF8C42" />
+            android:textColor="#4E342E" />
 
         <Button
             android:id="@+id/btnCalculator"
             android:layout_width="220dp"
-            android:layout_height="45dp"
+            android:layout_height="48dp"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
+            android:backgroundTint="#FF8C42"
             android:text="@string/calculate_fees"
-            android:textColor="#2E8B57"
-            android:backgroundTint="#FF8C42" />
+            android:textColor="#4E342E" />
 
         <Button
             android:id="@+id/btnContact"
             android:layout_width="220dp"
-            android:layout_height="45dp"
+            android:layout_height="48dp"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="20dp"
+            android:backgroundTint="#FF8C42"
             android:text="@string/ContactUs"
-            android:textColor="#2E8B57"
-            android:backgroundTint="#FF8C42" />
+            android:textColor="#4E342E" />
 
     </LinearLayout>
 

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ECECEC">
@@ -16,8 +17,8 @@
             android:layout_width="match_parent"
             android:layout_height="90dp"
             android:background="#5AA5F5"
-            android:orientation="horizontal"
             android:gravity="center_vertical"
+            android:orientation="horizontal"
             android:padding="8dp">
 
             <!-- Logo -->
@@ -26,6 +27,7 @@
                 android:id="@+id/imgLogo"
                 android:layout_width="70dp"
                 android:layout_height="70dp"
+                android:contentDescription="@string/logo"
                 android:src="@drawable/logo" />
 
             <!-- Title -->
@@ -33,9 +35,9 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:layout_marginStart="10dp"
-                android:text="Contact Us"
+                android:layout_weight="1"
+                android:text="@string/contact_us"
                 android:textColor="#FFFFFF"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -46,7 +48,10 @@
                 android:id="@+id/btnMenu"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
+                android:minWidth="48dp"
+                android:minHeight="48dp"
                 android:background="@android:color/transparent"
+                android:contentDescription="@string/menu"
                 android:src="@android:drawable/ic_menu_sort_by_size" />
 
         </LinearLayout>
@@ -56,6 +61,7 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="220dp"
+            android:contentDescription="@string/contact_us"
             android:scaleType="centerCrop"
             android:src="@drawable/about_us" />
 
@@ -72,7 +78,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Get In Touch"
+                android:text="@string/get_in_touch"
                 android:textColor="#2E8B57"
                 android:textSize="22sp"
                 android:textStyle="bold" />
@@ -81,56 +87,56 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
-                android:text="Phone"
-                android:textStyle="bold"
-                android:textColor="#444444" />
+                android:text="@string/phone"
+                android:textColor="#444444"
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="+27 21 555 1234"
-                android:textColor="#444444" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="15dp"
-                android:text="Email"
-                android:textStyle="bold"
-                android:textColor="#444444" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="bookings@adventureescapesa.co.za"
+                android:text="@string/contact_phone"
                 android:textColor="#444444" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
-                android:text="Address"
-                android:textStyle="bold"
+                android:text="@string/email"
+                android:textColor="#444444"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/contact_email"
                 android:textColor="#444444" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/address"
+                android:textColor="#444444"
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="123 Adventure Trail, Cape Town, Western Cape, South Africa"
+                android:text="@string/contact_address"
                 android:textColor="#444444" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
-                android:text="Social Media"
-                android:textStyle="bold"
-                android:textColor="#444444" />
+                android:text="@string/social_media"
+                android:textColor="#444444"
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Facebook | Instagram | LinkedIn"
+                android:text="@string/contact_social_media"
                 android:textColor="#444444" />
 
         </LinearLayout>
@@ -142,47 +148,55 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:hint="Full Name" />
+            android:minHeight="48dp"
+            android:autofillHints="name"
+            android:hint="@string/full_name"
+            android:inputType="textPersonName" />
 
         <EditText
             android:id="@+id/etEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:layout_marginEnd="10dp"
-            android:hint="Email Address" />
+            android:layout_margin="10dp"
+            android:minHeight="48dp"
+            android:autofillHints="emailAddress"
+            android:hint="@string/email_address"
+            android:inputType="textEmailAddress" />
 
         <EditText
             android:id="@+id/etMessage"
             android:layout_width="match_parent"
             android:layout_height="120dp"
             android:layout_margin="10dp"
+            android:minHeight="48dp"
+            android:importantForAutofill="no"
             android:gravity="top"
-            android:hint="Enter Message" />
+            android:hint="@string/enter_message"
+            android:inputType="textMultiLine" />
 
         <!-- SEND BUTTON -->
 
         <Button
             android:id="@+id/btnSend"
             android:layout_width="220dp"
-            android:layout_height="45dp"
+            android:layout_height="48dp"
             android:layout_gravity="center"
             android:layout_marginBottom="10dp"
-            android:text="Send Enquiry"
-            android:textColor="#2E8B57"
-            android:backgroundTint="#FF8C42" />
+            android:backgroundTint="#FF8C42"
+            android:text="@string/send_enquiry"
+            android:textColor="#2E8B57" />
 
         <!-- BACK BUTTON -->
 
         <Button
             android:id="@+id/btnBack"
             android:layout_width="220dp"
-            android:layout_height="45dp"
+            android:layout_height="48dp"
             android:layout_gravity="center"
             android:layout_marginBottom="20dp"
-            android:text="Back"
-            android:textColor="#2E8B57"
-            android:backgroundTint="#FF8C42" />
+            android:backgroundTint="#FF8C42"
+            android:text="@string/back"
+            android:textColor="#2E8B57" />
 
     </LinearLayout>
 
