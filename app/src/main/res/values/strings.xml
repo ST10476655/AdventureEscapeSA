@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Adventure Escape SA</string>
+    <string name="todo">TODO</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="back">Back</string>
+    <string name="adventure_escape_sa_was_established_to_provide_exciting_outdoor_experiences_for_families_tourists_schools_and_corporate_groups">Adventure Escape SA was established to provide exciting outdoor experiences for families, tourists, schools and corporate groups.</string>
+    <string name="to_provide_safe_memorable_and_environmentally_responsible_outdoor_adventures">To provide safe, memorable and environmentally responsible outdoor adventures.</string>
+    <string name="goals">Goals</string>
+    <string name="promote_eco_tourism_10_encourage_outdoor_activities_10_foster_teamwork_10_create_memorable_experiences">• Promote eco-tourism\n• Encourage outdoor activities\n• Foster teamwork\n• Create memorable experiences</string>
+    <string name="vision">Vision</string>
+    <string name="about_us">About Us</string>
+    <string name="mission">Mission</string>
+    <string name="history">History</string>
+    <string name="to_become_south_africa_s_leading_adventure_tourism_provider">To become South Africa\'s leading adventure tourism provider.</string>
+    <string name="TODO">TODO</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="email_address">Email Address</string>
+    <string name="select_adventures">Select Adventures</string>
+    <string name="ultimate_adventure_day_r1500">Ultimate Adventure Day - R1500</string>
+    <string name="full_name">Full Name</string>
+    <string name="family_explorer_package_r1500">Family Explorer Package - R1500</string>
+    <string name="mountain_adventure_package_r1500">Mountain Adventure Package - R1500</string>
+    <string name="Back">Back</string>
+    <string name="quote_summary_appears_here">Quote Summary Appears Here</string>
+    <string name="submit_booking_request">Submit Booking Request</string>
+    <string name="calculate_total">Calculate Total</string>
+    <string name="rock_climbing_session_r750">Rock Climbing Session - R750</string>
+    <string name="kayaking_experience_r750">Kayaking Experience - R750</string>
+    <string name="ziplining_adventure_r750">Ziplining Adventure - R750</string>
+    <string name="corporate_team_challenge_r1500">Corporate Team Challenge - R1500</string>
+    <string name="individual_activities">Individual Activities</string>
+    <string name="calculate_fees">Calculate Fees</string>
+    <string name="ContactUs">Contact Us</string>
+</resources>

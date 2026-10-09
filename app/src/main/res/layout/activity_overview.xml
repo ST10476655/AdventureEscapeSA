@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECECEC">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- HEADER -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="#5AA5F5"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/logo"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="10dp"
+                android:text="Adventure Packages"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <ImageButton
+                android:id="@+id/btnMenu"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@android:color/transparent"
+                android:src="@android:drawable/ic_menu_sort_by_size"/>
+
+        </LinearLayout>
+
+        <!-- TITLE -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Packages &amp; Activities"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:padding="15dp"/>
+
+        <!-- ULTIMATE ADVENTURE -->
+
+        <Button
+            android:id="@+id/btnUltimate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="Ultimate Adventure Day - R1500"
+            android:backgroundTint="#FF8C42"/>
+
+        <!-- FAMILY -->
+
+        <Button
+            android:id="@+id/btnFamily"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="Family Explorer Package - R1500"
+            android:backgroundTint="#FF8C42"/>
+
+        <!-- MOUNTAIN -->
+
+        <Button
+            android:id="@+id/btnMountain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="Mountain Adventure Package - R1500"
+            android:backgroundTint="#FF8C42"/>
+
+        <!-- CORPORATE -->
+
+        <Button
+            android:id="@+id/btnCorporate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="Corporate Team Challenge - R1500"
+            android:backgroundTint="#FF8C42"/>
+
+        <!-- ZIPLINE -->
+
+        <Button
+            android:id="@+id/btnZipline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="Ziplining Adventure - R750"
+            android:backgroundTint="#FF8C42"/>
+
+        <!-- KAYAKING -->
+
+        <Button
+            android:id="@+id/btnKayaking"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="Kayaking Experience - R750"
+            android:backgroundTint="#FF8C42"/>
+
+        <!-- ROCK CLIMBING -->
+
+        <Button
+            android:id="@+id/btnRock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="Rock Climbing Session - R750"
+            android:backgroundTint="#FF8C42"/>
+
+        <!-- BACK BUTTON -->
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="220dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="20dp"
+            android:text="Back"
+            android:textColor="#2E8B57"
+            android:backgroundTint="#FF8C42"/>
+
+    </LinearLayout>
+
+</ScrollView>

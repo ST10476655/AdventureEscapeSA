@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btnAbout" type="id" />
+    <item name="btnBack" type="id" />
+    <item name="etMessage" type="id" />
+    <item name="btnSend" type="id" />
+    <item name="etName" type="id" />
+    <item name="etEmail" type="id" />
+    <item name="btnBookNow" type="id" />
+    <item name="btnQuote" type="id" />
+    <item name="btnZipline" type="id" />
+    <item name="btnKayaking" type="id" />
+</resources>

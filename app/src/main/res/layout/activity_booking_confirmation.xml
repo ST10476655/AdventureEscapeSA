@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECECEC">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- HEADER -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="#5AA5F5"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:contentDescription="TODO"
+                android:src="@drawable/logo"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="10dp"
+                android:text="Booking Confirmation"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <!-- SUCCESS IMAGE -->
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:src="@android:drawable/checkbox_on_background"/>
+
+        <!-- CONFIRMATION CARD -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="#5AA5F5"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Booking Request Submitted!"
+                android:textColor="#2E8B57"
+                android:textSize="22sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Reference Number"
+                android:textStyle="bold"
+                android:textColor="#444444"/>
+
+            <TextView
+                android:id="@+id/txtReference"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AES-2026-001"
+                android:textColor="#444444"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Thank you for choosing Adventure Escape SA. Your booking request has been successfully recorded. Our team will contact you shortly."
+                android:textColor="#444444"/>
+
+        </LinearLayout>
+
+        <!-- BUTTONS -->
+
+        <Button
+            android:id="@+id/btnHome"
+            android:layout_width="220dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:text="Return Home"
+            android:textColor="#2E8B57"
+            android:backgroundTint="#FF8C42"/>
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="220dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:text="Back"
+            android:textColor="#2E8B57"
+            android:backgroundTint="#FF8C42"/>
+
+    </LinearLayout>
+
+</ScrollView>

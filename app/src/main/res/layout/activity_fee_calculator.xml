@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--suppress ALL -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECECEC">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- HEADER -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="#5AA5F5"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:contentDescription="@string/TODO"
+                android:src="@drawable/logo"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="10dp"
+                android:text="Calculate Fees"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <ImageButton
+                android:id="@+id/btnMenu"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@android:color/transparent"
+                android:src="@android:drawable/ic_menu_sort_by_size"/>
+
+        </LinearLayout>
+
+        <!-- CUSTOMER DETAILS -->
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:autofillHints=""
+            android:hint="@string/full_name"
+            android:inputType="TODO" />
+
+        <EditText
+            android:id="@+id/etPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:autofillHints=""
+            android:hint="@string/phone_number"
+            tools:ignore="TextFields" />
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:autofillHints=""
+            android:hint="@string/email_address"
+            android:inputType="TODO" />
+
+        <!-- PACKAGES -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/select_adventures"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="10dp"/>
+
+        <CheckBox
+            android:id="@+id/cbUltimate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ultimate_adventure_day_r1500"/>
+
+        <CheckBox
+            android:id="@+id/cbFamily"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/family_explorer_package_r1500"/>
+
+        <CheckBox
+            android:id="@+id/cbMountain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mountain_adventure_package_r1500"/>
+
+        <CheckBox
+            android:id="@+id/cbCorporate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/corporate_team_challenge_r1500"/>
+
+        <CheckBox
+            android:id="@+id/cbZip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ziplining_adventure_r750"/>
+
+        <CheckBox
+            android:id="@+id/cbKayak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/kayaking_experience_r750"/>
+
+        <CheckBox
+            android:id="@+id/cbRock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rock_climbing_session_r750"/>
+
+        <!-- CALCULATE -->
+
+        <Button
+            android:id="@+id/btnCalculate"
+            android:layout_width="220dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:text="@string/calculate_total"
+            android:textColor="#2E8B57"
+            android:backgroundTint="#FF8C42"/>
+
+        <!-- SUMMARY -->
+
+        <TextView
+            android:id="@+id/txtSummary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="@string/quote_summary_appears_here"
+            android:textSize="16sp"/>
+
+        <!-- SUBMIT -->
+
+        <Button
+            android:id="@+id/btnSubmitBooking"
+            android:layout_width="220dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:text="@string/submit_booking_request"
+            android:textColor="#2E8B57"
+            android:backgroundTint="#FF8C42"/>
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="220dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/Back"
+            android:textColor="#2E8B57"
+            android:backgroundTint="#FF8C42"/>
+
+    </LinearLayout>
+
+</ScrollView>

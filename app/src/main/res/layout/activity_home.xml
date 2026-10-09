@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECECEC">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- HEADER -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="#5AA5F5"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="8dp">
+
+            <!-- LOGO -->
+
+            <ImageView
+                android:id="@+id/imgLogo"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/logo"
+                tools:ignore="ContentDescription" />
+
+            <!-- APP NAME -->
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="10dp"
+                android:text="Adventure Escape SA"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <!-- HAMBURGER MENU -->
+
+            <ImageButton
+                android:id="@+id/btnMenu"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@android:color/transparent"
+                android:importantForAccessibility="no"
+                android:src="@android:drawable/ic_menu_sort_by_size" />
+
+        </LinearLayout>
+
+        <!-- HERO IMAGE -->
+
+        <ImageView
+            android:id="@+id/imgHome"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:contentDescription="TODO"
+            android:src="@drawable/home_page"
+            android:scaleType="centerCrop"
+            tools:ignore="ContentDescription,HardcodedText" />
+
+        <!-- WELCOME CARD -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#5AA5F5"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Explore Amazing Destinations!"
+                android:textColor="#2E8B57"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Adventure Escape SA offers professionally guided outdoor adventures for individuals, families, schools, tourists and corporate groups across South Africa."
+                android:textColor="#444444"
+                android:textSize="14sp"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+        <!-- BUTTONS -->
+
+        <Button
+            android:id="@+id/btnAbout"
+            android:layout_width="220dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="About Us"
+            android:textColor="#2E8B57"
+            android:backgroundTint="#FF8C42"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/btnPackages"
+            android:layout_width="220dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Adventure Packages"
+            android:textColor="#2E8B57"
+            android:backgroundTint="#FF8C42"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/btnActivities"
+            android:layout_width="220dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/individual_activities"
+            android:textColor="#2E8B57"
+            android:backgroundTint="#FF8C42" />
+
+        <Button
+            android:id="@+id/btnCalculator"
+            android:layout_width="220dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/calculate_fees"
+            android:textColor="#2E8B57"
+            android:backgroundTint="#FF8C42" />
+
+        <Button
+            android:id="@+id/btnContact"
+            android:layout_width="220dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/ContactUs"
+            android:textColor="#2E8B57"
+            android:backgroundTint="#FF8C42" />
+
+    </LinearLayout>
+
+</ScrollView>

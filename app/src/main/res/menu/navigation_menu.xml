@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_home"
+        android:title="Home"/>
+
+    <item
+        android:id="@+id/menu_about"
+        android:title="About Us"/>
+
+    <item
+        android:id="@+id/menu_packages"
+        android:title="Adventure Packages"/>
+
+    <item
+        android:id="@+id/menu_activities"
+        android:title="Individual Activities"/>
+
+    <item
+        android:id="@+id/menu_calculator"
+        android:title="Calculate Fees"/>
+
+    <item
+        android:id="@+id/menu_contact"
+        android:title="Contact Us"/>
+
+</menu>
