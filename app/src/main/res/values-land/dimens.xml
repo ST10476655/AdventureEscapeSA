@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Phones in landscape: short screen, so a shorter hero image -->
+<resources>
+    <dimen name="button_width">260dp</dimen>
+    <dimen name="hero_height">150dp</dimen>
+</resources>
