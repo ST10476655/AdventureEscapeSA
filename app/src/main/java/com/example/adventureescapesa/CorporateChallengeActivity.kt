@@ -18,6 +18,8 @@ class CorporateChallengeActivity : AppCompatActivity() {
             R.layout.activity_corporate_challenge
         )
 
+        setupResponsiveWindow()
+
         // Controls
 
         val btnMenu =

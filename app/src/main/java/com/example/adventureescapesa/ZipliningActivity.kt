@@ -20,6 +20,8 @@ class ZipliningActivity : AppCompatActivity() {
             R.layout.activity_ziplining
         )
 
+        setupResponsiveWindow()
+
         val btnMenu =
             findViewById<ImageButton>(R.id.btnMenu)
 

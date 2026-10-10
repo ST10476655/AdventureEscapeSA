@@ -20,6 +20,8 @@ class FamilyExplorerActivity : AppCompatActivity() {
             R.layout.activity_family_explorer
         )
 
+        setupResponsiveWindow()
+
         // Controls
 
         val btnMenu =
