@@ -18,6 +18,8 @@ class RockClimbingActivity : AppCompatActivity() {
             R.layout.activity_rock_climbing
         )
 
+        setupResponsiveWindow()
+
         val btnMenu =
             findViewById<ImageButton>(R.id.btnMenu)
 

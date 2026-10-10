@@ -13,6 +13,8 @@ class FeeCalculatorActivity : AppCompatActivity() {
 
         setContentView(R.layout.activity_fee_calculator)
 
+        setupResponsiveWindow()
+
         val etName = findViewById<EditText>(R.id.etName)
         val etPhone = findViewById<EditText>(R.id.etPhone)
         val etEmail = findViewById<EditText>(R.id.etEmail)
