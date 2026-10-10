@@ -6,11 +6,13 @@ Built in **Kotlin** with XML layouts for the Work Integrated Learning module.
 
 ## Group members
 
-| Name | Student number |
-|------|----------------|
-|      |                |
-|      |                |
-|      |                |
+| Name                     | Student number |
+|--------------------------|----------------|
+| Asiphe Zondeka           | ST10476655     |
+| Emily Qhawekazi Maramani | ST10484946     |
+| Ntombifuthi Mdlalose     | ST10501620     |
+| Vusi Steven Mkhwanazi    | ST10525735     |
+| Sisonke Miya             | ST10494718     |
 
 ## Features
 
