@@ -16,6 +16,8 @@ class KayakingActivity : AppCompatActivity() {
 
         setContentView(R.layout.activity_kayaking)
 
+        setupResponsiveWindow()
+
         val btnMenu =
             findViewById<ImageButton>(R.id.btnMenu)
 

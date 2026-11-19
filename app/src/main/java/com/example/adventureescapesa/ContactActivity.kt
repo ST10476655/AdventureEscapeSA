@@ -25,6 +25,8 @@ class ContactActivity : AppCompatActivity() {
 
         setContentView(R.layout.activity_contact)
 
+        setupResponsiveWindow()
+
         val btnMenu =
             findViewById<ImageButton>(R.id.btnMenu)
 

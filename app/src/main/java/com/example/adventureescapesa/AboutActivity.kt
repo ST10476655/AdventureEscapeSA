@@ -17,6 +17,8 @@ class AboutActivity : AppCompatActivity() {
 
         setContentView(R.layout.activity_about)
 
+        setupResponsiveWindow()
+
         val btnMenu =
             findViewById<ImageButton>(R.id.btnMenu)
 

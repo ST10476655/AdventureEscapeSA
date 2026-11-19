@@ -16,7 +16,8 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="90dp"
+            android:layout_height="wrap_content"
+            android:minHeight="90dp"
             android:background="#5AA5F5"
             android:orientation="horizontal"
             android:gravity="center_vertical"
@@ -40,8 +41,8 @@
 
             <ImageButton
                 android:id="@+id/btnMenu"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
                 android:background="@android:color/transparent"
                 android:src="@android:drawable/ic_menu_sort_by_size"/>
 
@@ -133,8 +134,9 @@
 
         <Button
             android:id="@+id/btnCalculate"
-            android:layout_width="220dp"
-            android:layout_height="45dp"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
             android:layout_gravity="center"
             android:layout_marginTop="15dp"
             android:text="@string/calculate_total"
@@ -155,8 +157,9 @@
 
         <Button
             android:id="@+id/btnSubmitBooking"
-            android:layout_width="220dp"
-            android:layout_height="45dp"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
             android:layout_gravity="center"
             android:text="@string/submit_booking_request"
             android:textColor="#2E8B57"
@@ -164,8 +167,9 @@
 
         <Button
             android:id="@+id/btnBack"
-            android:layout_width="220dp"
-            android:layout_height="45dp"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="20dp"

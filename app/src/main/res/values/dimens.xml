@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Phone sizes (default, portrait) -->
+<resources>
+    <dimen name="button_width">220dp</dimen>
+    <dimen name="hero_height">220dp</dimen>
+</resources>

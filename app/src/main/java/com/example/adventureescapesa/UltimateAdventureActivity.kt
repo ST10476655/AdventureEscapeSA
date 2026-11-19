@@ -18,6 +18,8 @@ class UltimateAdventureActivity : AppCompatActivity() {
             R.layout.activity_ultimate_adventure
         )
 
+        setupResponsiveWindow()
+
         // Controls
 
         val btnMenu =

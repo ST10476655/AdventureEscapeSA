@@ -18,6 +18,8 @@ class MountainAdventureActivity : AppCompatActivity() {
             R.layout.activity_mountain_adventure
         )
 
+        setupResponsiveWindow()
+
         val btnMenu =
             findViewById<ImageButton>(R.id.btnMenu)
 

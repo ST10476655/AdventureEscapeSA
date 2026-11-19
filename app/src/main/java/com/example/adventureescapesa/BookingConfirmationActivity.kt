@@ -16,6 +16,8 @@ class BookingConfirmationActivity : AppCompatActivity() {
             R.layout.activity_booking_confirmation
         )
 
+        setupResponsiveWindow()
+
         val txtReference =
             findViewById<TextView>(R.id.txtReference)
 
